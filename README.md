@@ -26,7 +26,7 @@ If the user sends unfamiliar commands, or pictures with wrong labels, the bot in
 
 ## How to start a project
 
-### Run on your local machine.
+### Run on your local machine
 - Copy the files to any folder.
 - Run the script main_code_style_transfering_bot.py
 The TG_BOT_TOKEN.txt file should contain your token for the bot.
