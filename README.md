@@ -42,13 +42,6 @@ You can choose
 
 values of loss functions should decrease during the learning process
 
-#### Run on Colab
-Realize the following commands :
-- git clone
-pip install python-telegram-bot==13.13
-- Here you need to insert your token into TG_BOT_TOKEN.txt.
-- python /content/Style_transfer_bot/app.py 
-
 ### About code
 Written using the libraries 'python-telegram-bot', 'torch'.
 The main code is in the file app.py.
