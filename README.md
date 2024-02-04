@@ -10,8 +10,7 @@ The Мodel is based on
 
 The example of it's work:
 
-![](C:\reservation_copy_Telegram_Bot_for_Neural_Style_Transfer-main\images\gith1.jpg)
-
+![]( https://github.com/EndAnn/Style_transfer_bot/blob/images/images/gith1.jpg  )
 
 ## Work of bot.
 The bot perceives two commands:
