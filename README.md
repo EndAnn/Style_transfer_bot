@@ -29,7 +29,7 @@ If the user sends unfamiliar commands, or pictures with wrong labels, the bot in
 ### Run on your local machine.
 - Copy the files to any folder.
 - Run the script main_code_style_transfering_bot.py
-The [TG_BOT_TOKEN.txt] file should contain your token for the bot.
+The TG_BOT_TOKEN.txt file should contain your token for the bot.
 
 You can choose
 - the size of the smaller side of the output image --size (default=256)
@@ -43,23 +43,23 @@ values of loss functions should decrease during the learning process
 
 #### Run on Colab
 Realize the following commands :
-! git clone https://github.com/Aliaksandr-Borsuk/Telegram_Bot_for_Neural_Style_Transfer.git
-! pip install python-telegram-bot==13.13
-Here you need to insert your token into TG_BOT_TOKEN.txt.
-! python /content/Telegram_Bot_for_Neural_Style_Transfer/badger_style_transferring_bot_01.py --size=512
+- git clone
+pip install python-telegram-bot==13.13
+- Here you need to insert your token into TG_BOT_TOKEN.txt.
+- python /content/Style_transfer_bot/app.py 
 
 ### About code.
 Written using the libraries 'python-telegram-bot', 'torch'.
-The main code is in the file [app.py].
+The main code is in the file app.py.
 This is a generic file combining style transfer(def draw) and telegram bot.
 
-File [style_trasfering.py] contains contains all the processes involved in image transfering - reading and converting images, the style transfer itself, the image converting, logs saving
+File style_trasfering.py contains contains all the processes involved in image transfering - reading and converting images, the style transfer itself, the image converting, logs saving
 
-File [model_support.py] contains elements of Neural Style Transfer algorithm: use of weights of pre-trained neural network, calculation of loss function, optimization of loss function and parameters of source image
+File model_support.py contains elements of Neural Style Transfer algorithm: use of weights of pre-trained neural network, calculation of loss function, optimization of loss function and parameters of source image
 
-During its work the bot creates a folder badger_style_transferring_bot, as well as separate folders for each chat where it stores temporary image files and losses. After receiving the output, the image files are deleted. The code with cell outputs is saved to the file [style_transfer.log].
+During its work the bot creates a folder badger_style_transferring_bot, as well as separate folders for each chat where it stores temporary image files and losses. After receiving the output, the image files are deleted. The code with cell outputs is saved to the file style_transfer.log.
 
-Layer weights are initialized by the weights of the VGG model in the [vgg_weights.pth] file.
+Layer weights are initialized by the weights of the VGG model in the vgg_weights.pth file.
 
 ## References
  <a id="1">[1]</a>
