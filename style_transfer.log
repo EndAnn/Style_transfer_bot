@@ -1,0 +1,10 @@
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Step 0, Style Loss: 311.2647399902344, Content Loss: 36.02610778808594
+INFO:root:Step 3, Style Loss: 12.879732131958008, Content Loss: 34.69694900512695
+INFO:root:Step 6, Style Loss: 5.495406627655029, Content Loss: 31.72383689880371
+INFO:root:Step 9, Style Loss: 3.694338798522949, Content Loss: 30.058330535888672
+INFO:root:Step 12, Style Loss: 3.093865156173706, Content Loss: 29.034252166748047
+INFO:root:Step 15, Style Loss: 3.152459144592285, Content Loss: 28.514404296875
+INFO:root:Step 18, Style Loss: 2.852384090423584, Content Loss: 28.178245544433594
+INFO:root:Step 21, Style Loss: 2.8258066177368164, Content Loss: 28.058101654052734
+INFO:root:Step 24, Style Loss: 2.809924840927124, Content Loss: 27.901348114013672
