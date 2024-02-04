@@ -13,7 +13,7 @@ The example of it's work:
 ![](https://github.com/EndAnn/Style_transfer_bot/blob/main/images/gith1.jpg)
 
 
-## Work of bot.
+## Work of bot
 The bot perceives two commands:
 
 **/start**- Start working with the bot.
@@ -24,7 +24,7 @@ Wait for the process to complete, the bot will send the result.
 
 If the user sends unfamiliar commands, or pictures with wrong labels, the bot informs the user about it and asks to do everything as it should.
 
-## How to start a project.
+## How to start a project
 
 ### Run on your local machine.
 - Copy the files to any folder.
@@ -48,7 +48,7 @@ pip install python-telegram-bot==13.13
 - Here you need to insert your token into TG_BOT_TOKEN.txt.
 - python /content/Style_transfer_bot/app.py 
 
-### About code.
+### About code
 Written using the libraries 'python-telegram-bot', 'torch'.
 The main code is in the file app.py.
 This is a generic file combining style transfer(def draw) and telegram bot.
