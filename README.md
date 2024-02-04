@@ -16,10 +16,11 @@ The example of it's work:
 ## Work of bot
 The bot perceives two commands:
 
-**/start**- Start working with the bot.
+- **/start**- Start working with the bot.
 Send two images with the captions "content" and "style".
 The bot also waits for pictures with style and content tags.
-**/transfer_style** - Start the style transfer process.
+
+- **/transfer_style** - Start the style transfer process.
 Wait for the process to complete, the bot will send the result.
 
 If the user sends unfamiliar commands, or pictures with wrong labels, the bot informs the user about it and asks to do everything as it should.
