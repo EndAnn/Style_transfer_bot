@@ -1,6 +1,7 @@
 # Style-Transfer-Telegram-Bot
 
 link https://t.me/train_anna_bot
+The bot runs from a remote server
 
 ## About bot
 This Telegram bot transfers the style of one picture to another, using the Neural Style Transfer algorithm. This method allows to combine the content of one image with the aesthetics and style of another, creating unique artificial images.
